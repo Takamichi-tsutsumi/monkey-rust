@@ -3,4 +3,12 @@ name = "monkey"
 version = "0.1.0"
 authors = ["Takamichi-tsutsumi <takamichi_tsutsumi@waku-2.com>"]
 
+[lib]
+name = "monkey_lib"
+path = "lib/monkey.rs"
+
+[[bin]]
+name = "monkey"
+path = "src/main.rs"
+
 [dependencies]
